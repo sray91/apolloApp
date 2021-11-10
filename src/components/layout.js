@@ -14,7 +14,7 @@ const Layout = ({children}) => {
     `
     return (
         <div>
-            <nav className="flex sm:justify-between justify-around items-center bg-green-900 lg:px-20 sm:px-6 py-8 text-gray-100">
+            <nav className="flex sm:justify-between justify-around items-center bg-purple-300 lg:px-20 sm:px-6 py-8">
                 <h3 className={logoStyle}>ApolloFitness</h3>
                 <ul className="flex">
                     <li className={linkStyle}><Link to="/">Home</Link></li>
@@ -24,7 +24,7 @@ const Layout = ({children}) => {
 
             <main>{children}</main>
 
-            <footer className="text-center py-8 bg-green-900 text-gray-100">
+            <footer className="text-center py-8 bg-purple-300">
                 <p>Copyright 2021 <span  className={logoStyle}>ApolloFitness</span></p>
             </footer>
         </div>
