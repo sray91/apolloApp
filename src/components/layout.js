@@ -1,22 +1,34 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
 
-const Layout = ({ pageTitle, children }) => {
-  return (
-    <div>
-      <title>{pageTitle}</title>
-      <nav>
-        <ul>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/dashboard">Dashboard</Link></li>
-        </ul>
-      </nav>
-      <main>
-        <h1>{pageTitle}</h1>
-        {children}
-      </main>
-    </div>
-  )
+const Layout = ({children}) => {
+    const linkStyle = `
+     Hover:opacity-70
+     text-sm
+     sm:text-lg
+    `
+    const logoStyle=`
+    text-white 
+    sm:text-base
+    text-sm
+    `
+    return (
+        <div>
+            <nav className="flex sm:justify-between justify-around items-center bg-green-900 lg:px-20 sm:px-6 py-8 text-gray-100">
+                <h3 className={logoStyle}>ApolloFitness</h3>
+                <ul className="flex">
+                    <li className={linkStyle}><Link to="/">Home</Link></li>
+                    <li className={linkStyle}><Link to="/dashboard">Dashboard</Link></li>
+                </ul>
+            </nav>
+
+            <main>{children}</main>
+
+            <footer className="text-center py-8 bg-green-900 text-gray-100">
+                <p>Copyright 2021 <span  className={logoStyle}>ApolloFitness</span></p>
+            </footer>
+        </div>
+    )
 }
 
 export default Layout
