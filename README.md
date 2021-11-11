@@ -1,1 +1,1 @@
-Apollo web app, fitness partner.
+SwayFit mobile/web app with web3 integration.
