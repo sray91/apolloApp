@@ -7,8 +7,8 @@ module.exports = {
         body: ['Noto Sans', 'sans-serif']
       },
       colors: {
-        background: "000000",
-        primary: "611f69"
+        background: "ffffff",
+        primary: "BE29EC"
       }
     },
   },
