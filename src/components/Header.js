@@ -20,7 +20,7 @@ const Header = () => {
         <header className="pt-16 pb-10 text-center bg-gray-800">
         <StaticImage src="../images/logo.png" alt="SwayFitLogoWords" />
         <h1 className={headerStyle}>Welcome to SwayFit!</h1>
-        <p className={wordStyle}>Your fitness journey partner</p>
+        <p className={wordStyle}>Your fitness journey partner.</p>
         </header>
     )
 }
