@@ -8,3 +8,14 @@
 
 /* imported hamburger menu */
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css');
+
+/* button classes using the @apply directive */
+.btn {
+    @apply shadow-md py-3 px-6 rounded-md transition duration-300 font-notosans;
+}
+.btn-purple {
+    @apply bg-purple-600 text-white;
+}
+.btn-white {
+    @apply bg-white;
+}

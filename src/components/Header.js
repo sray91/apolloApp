@@ -1,5 +1,4 @@
 import React from 'react'
-//import { StaticImage } from "gatsby-plugin-image"
 
 // this is the "header" for the main page
 
