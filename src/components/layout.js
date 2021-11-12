@@ -28,7 +28,7 @@ const Layout = ({children}) => {
             <main className="bg-gray-800">{children}</main>
 
             <footer className="text-center py-8 bg-gray-800">
-                <p className={logoStyle}>Copyright 2021 <span  className={logoStyle}>ApolloFitness</span></p>
+                <p className="font-notosans text-white sm:text-base text-sm">Copyright 2021 <span  className={logoStyle}>ApolloFitness</span></p>
             </footer>
         </div>
     )
