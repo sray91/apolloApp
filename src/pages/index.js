@@ -1,6 +1,7 @@
 import * as React from "react"
 import Layout from '../components/layout'
 import Header from "../components/Header"
+//import indexContect from "../components/indexContent"
 
 // markup
 const IndexPage = () => {

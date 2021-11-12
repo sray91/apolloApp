@@ -1,9 +1,9 @@
 import React from 'react'
 //import { StaticImage } from "gatsby-plugin-image"
 
-// this is the "header" for the main page
+// this is the content for the main page
 
-const Header = () => {    
+const indexContent = () => {    
     return (
         <header className="pt-16 pb-10 text-center bg-gray-800">
             <h1 className="font-notosans font-bold lg:text-5xl sm:text-4xl text-2xl pb-4 text-white">Welcome to SwayFit!</h1>
@@ -12,4 +12,4 @@ const Header = () => {
     )
 }
 
-export default Header
+export default indexContent
