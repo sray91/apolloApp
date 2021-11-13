@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
-    title: "apollo",
+    siteUrl: "https://www.swayfit.app",
+    title: "SwayFitApp",
+    description: "Fitness app for android, iOS, and web. Web3 integration. Machine learning and AI. Fitness partner",
   },
   plugins: [
     'gatsby-plugin-postcss',

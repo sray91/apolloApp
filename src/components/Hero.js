@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { StaticImage } from "gatsby-plugin-image"
 // this is the content for the main page
 
 const Hero = () => {    
@@ -17,11 +17,9 @@ const Hero = () => {
                         <button type="button" className="btn btn-purple hover:bg-white hover:text-black">Get it on Android</button>
                         <button type="button" className="btn btn-white hover:bg-purple-600 hover:text-white">Get it on iOS</button>
                     </div>
-                    <div className="flex justify-center flex-1 mb-10 md:mb-16 lg:mb-0 z-10">
-                    </div>
                 </div>
+                <StaticImage src="../images/hero1.png" alt="SwayFitHero1" className="flex justify-items-start"/>
             </div>
-            <div className="hidden md:block overflow-hidden bg-purple-600 rounded-l-full absolute h-80 w-2/4 top-26 right-0 lg:-bottom-28 lg:-right-36"></div>
         </section>
     )
 }
