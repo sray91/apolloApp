@@ -1,0 +1,26 @@
+[
+    {
+        "img": "../images/about-1.jpeg",
+        "alt": "About pic",
+        "name": "About pic",
+        "button": "More info"
+    },
+    {
+        "img": "../images/about-2.jpeg",
+        "alt": "About pic",
+        "name": "About pic",
+        "button": "More info"
+    },
+    {
+        "img": "../images/about-3.jpeg",
+        "alt": "About pic",
+        "name": "About pic",
+        "button": "More info"
+    },
+    {
+        "img": "../images/about-4.jpeg",
+        "alt": "About pic",
+        "name": "About pic",
+        "button": "More info"
+    }
+]
